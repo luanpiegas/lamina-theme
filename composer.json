@@ -1,5 +1,5 @@
 {
-    "name": "luan/luan-theme",
+    "name": "luan/lamina-theme",
     "type": "project",
     "authors": [
         {
@@ -9,10 +9,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "ThemeName\\": "wp-content/themes/theme-name"
+            "LaminaTheme\\": "wp-content/themes/lamina-theme"
         }
     },
     "require": {
-        "starring-jane/wordpress-blade": "^1.0"
+        "starring-jane/wordpress-blade": "^1.0",
+        "laravel/helpers": "^1.5"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace ThemeName;
+namespace LaminaTheme;
 
 use StarringJane\WordpressBlade\Component;
 
