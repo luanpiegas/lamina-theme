@@ -1,0 +1,18 @@
+{
+    "name": "luan/luan-theme",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Luan Piegas",
+            "email": "luanpiegas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThemeName\\": "wp-content/themes/theme-name"
+        }
+    },
+    "require": {
+        "starring-jane/wordpress-blade": "^1.0"
+    }
+}
